@@ -14,10 +14,10 @@ const ContactForm = () => {
 
     emailjs
       .sendForm(
-        'service_2260czf',     // ✅ Replace with your EmailJS Service ID
-        'template_5lzii1w',        // ✅ Replace with your Template ID
+        import.meta.env.VITE_EMAILJS_SERVICE_ID,
+        import.meta.env.VITE_EMAILJS_TEMPLATE_ID,
         form.current,
-        'p_4ClHhL8j17NxTNC'      // ✅ Replace with your Public Key from EmailJS
+        import.meta.env.VITE_EMAILJS_PUBLIC_KEY
       )
       .then(
         (result) => {
