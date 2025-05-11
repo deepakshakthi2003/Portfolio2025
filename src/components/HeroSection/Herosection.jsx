@@ -6,7 +6,7 @@ import { motion } from 'framer-motion';
 
 const Herosection = () => {
   const openResume = () => {
-    const resumePath = '/D-Resume.pdf';
+    const resumePath = require('../../../public/D-Resume.pdf').default;
     fetch(resumePath)
       .then((response) => {
         if (response.ok) {
