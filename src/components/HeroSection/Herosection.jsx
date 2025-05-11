@@ -6,7 +6,7 @@ import { motion } from 'framer-motion';
 
 const Herosection = () => {
   const openResume = () => {
-    const resumePath = process.env.PUBLIC_URL + '/D-Resume.pdf';
+    const resumePath = '/D-Resume.pdf'; // Directly referencing the file in the public folder
     fetch(resumePath)
       .then((response) => {
         if (response.ok) {
