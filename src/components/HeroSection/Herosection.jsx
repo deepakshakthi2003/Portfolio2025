@@ -3,21 +3,12 @@ import './HeroSection.css';
 import homeImg from '../../assets/homeImg.png';
 import download_icon from '../../assets/download-icon.png';
 import { motion } from 'framer-motion';
+import resume from '../../assets/D-Resume.pdf';
 
 const Herosection = () => {
+ 
   const openResume = () => {
-    const resumePath = '/D-Resume.pdf'; // Directly referencing the file in the public folder
-    fetch(resumePath)
-      .then((response) => {
-        if (response.ok) {
-          window.open(resumePath, '_blank');
-        } else {
-          alert('Resume file not found.');
-        }
-      })
-      .catch(() => {
-        alert('An error occurred while trying to open the resume.');
-      });
+    window.open(resume, "_blank");
   };
 
   return (
