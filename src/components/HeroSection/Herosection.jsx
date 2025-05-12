@@ -3,7 +3,7 @@ import './HeroSection.css';
 import homeImg from '../../assets/homeImg.png';
 import download_icon from '../../assets/download-icon.png';
 import { motion } from 'framer-motion';
-import resume from '../../assets/D-Resume.pdf';
+import resume from '../../assets/DeepakResume.pdf';
 
 const Herosection = () => {
  
