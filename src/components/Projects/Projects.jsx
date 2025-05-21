@@ -22,7 +22,7 @@ const projects = [
         title: "Food Delivery App",
         description: "A food delivery web app with real-time cart updates, secure login, and tracking functionality. Built with React and Firebase.",
         image: FoodDelivery,
-        link: "https://deepakshakthi2003.github.io/Food-delivery/"
+        link: "https://682d4a7ff6e1778aa91f9cec--exquisite-kleicha-71cd23.netlify.app/"
     }
 ];
 

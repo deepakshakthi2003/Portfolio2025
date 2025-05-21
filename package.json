@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://deepakshakthi2003.github.io/Portfolio2025",
+  "homepage": ".",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
