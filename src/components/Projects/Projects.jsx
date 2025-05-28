@@ -16,7 +16,7 @@ const projects = [
         title: "Edusity",
         description: "An educational web platform built using HTML, CSS, and JavaScript. It features course listing, user login, and progress tracking.",
         image: Edusity,
-        link: "https://deepakshakthi2003.github.io/Edusity/"
+        link: "https://genuine-sprite-d12048.netlify.app/"
     },
     {
         title: "Food Delivery App",
