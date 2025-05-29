@@ -10,7 +10,7 @@ const projects = [
         title: "Netflix Clone",
         description: "A responsive movie streaming platform built with ReactJS and Firebase for authentication and Firestore database.",
         image: Netflix_Clone,
-        link: "https://gleaming-florentine-1271bb.netlify.app/"
+        link: "https://demo-clone-netflx.netlify.app/login"
     },
     {
         title: "Edusity",
