@@ -10,19 +10,19 @@ const projects = [
         title: "Netflix Clone",
         description: "A responsive movie streaming platform built with ReactJS and Firebase for authentication and Firestore database.",
         image: Netflix_Clone,
-        link: "https://demo-clone-netflx.netlify.app/"
+        link: "https://netflix-clone-hazel-five-65.vercel.app/login"
     },
     {
         title: "Edusity",
         description: "An educational web platform built using HTML, CSS, and JavaScript. It features course listing, user login, and progress tracking.",
         image: Edusity,
-        link: "https://genuine-sprite-d12048.netlify.app/"
+        link: "https://edusity-sandy-ten.vercel.app/"
     },
     {
         title: "Food Delivery App",
         description: "A food delivery web app with real-time cart updates, secure login, and tracking functionality. Built with React and Firebase.",
         image: FoodDelivery,
-        link: "https://682d4a7ff6e1778aa91f9cec--exquisite-kleicha-71cd23.netlify.app/"
+        link: "https://food-delivery-delta-one.vercel.app/"
     }
 ];
 
