@@ -10,7 +10,7 @@ const projects = [
         title: "Netflix Clone",
         description: "A responsive movie streaming platform built with ReactJS and Firebase for authentication and Firestore database.",
         image: Netflix_Clone,
-        link: "cineflix001.vercel.app"
+        link: "https://cineflix001.vercel.app"
     },
     {
         title: "Edusity",
